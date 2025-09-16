@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Ayah</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            animation: gradientShift 3s infinite alternate;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            animation: fadeIn 2s ease;
+        }
+        
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            color: #e74c3c;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .birthday-wish {
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .message {
+            line-height: 1.6;
+            font-size: 1rem;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards;
+            animation-delay: 0.5s;
+        }
+        
+        .message p {
+            margin-bottom: 20px;
+        }
+        
+        .heart {
+            color: #e74c3c;
+            display: inline-block;
+            animation: heartbeat 1.5s infinite;
+        }
+        
+        .signature {
+            text-align: right;
+            margin-top: 30px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+            animation-delay: 2s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            5% { transform: scale(1.1); }
+            10% { transform: scale(1); }
+            15% { transform: scale(1.1); }
+            20% { transform: scale(1); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Animasi untuk setiap paragraf muncul secara berurutan */
+        .message p:nth-child(1) {
+            animation-delay: 0.5s;
+        }
+        
+        .message p:nth-child(2) {
+            animation-delay: 1s;
+        }
+        
+        .message p:nth-child(3) {
+            animation-delay: 1.5s;
+        }
+        
+        .message p:nth-child(4) {
+            animation-delay: 2s;
+        }
+        
+        .message p:nth-child(5) {
+            animation-delay: 2.5s;
+        }
+        
+        .message p:nth-child(6) {
+            animation-delay: 3s;
+        }
+        
+        .message p:nth-child(7) {
+            animation-delay: 3.5s;
+        }
+        
+        .message p:nth-child(8) {
+            animation-delay: 4s;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Untuk Ayah</h1>
+            <div class="birthday-wish">Selamat Ulang Tahun <span class="heart">❤️</span></div>
+        </div>
+        
+        <div class="message">
+            <p>Selamat ulang tahun ayah, semoga panjang umur sehat selalu, dan di beri rejeki yg berlimpah semoga menjadi ayah yg lebih baik lagi buat kelurga dan anak2nya.</p>
+            
+            <p>Ayah aku tau semuanya lebih banyak yang ayah kira tentang penghianatan, tentang perempuan lain, tentang bagaimana ayah menyakiti bunda.</p>
+            
+            <p>Aku bukan anak kecil yang bisa di bodohi dengan senyum palsu ayah, aku melihat luka bunda.</p>
+            
+            <p>Ayah mungkin menganggap bunda diam karna lemah, tapi sejujurnya ayah yang lemah tidak bisa setia, tidak bisa menghargai perempuan sekuat bunda, yang sudah memberi segalanya untuk keluarga ini.</p>
+            
+            <p>Aku tidak bisa terus diam, bunda bukan boneka yang bisa ayah injak. Bunda adalah perempuan kuat yang aku kenal, tapi kekuatan itu tidak harus terus di siksa.</p>
+            
+            <p>Kalau ayah masih punya sedikit hati berhentilah menyakiti bunda, karna aku anak ayah yang no 1 tidak akan diam saja melihat orang yang paling aku cintai di hancurkan terus menerus.</p>
+            
+            <p>Aku tidak membenci ayah tapi aku kecewa sangat dalam dan jika ayah tidak berubah maka aku akan berdiri disisi bunda sepenuhnya tanpa ragu.</p>
+        </div>
+        
+        <div class="signature">Anakmu</div>
+    </div>
+</body>
+</html>
